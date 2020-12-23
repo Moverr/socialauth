@@ -16,6 +16,17 @@
   <button onclick="showCurrentUserInfo()">Show current user info</button>
   <button id="signout" onclick="signOut()">Sign out</button>
   <div id="name"></div>
+
+
+
+<div class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-layout="default" data-auto-logout-link="true" data-use-continue-as="true"></div>
+
+
+ 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=192396077493833&autoLogAppEvents=1" nonce="TLKhCISI"></script>
+
+
   <script>
     var auth2 = undefined;
     function onLibraryLoaded() {
